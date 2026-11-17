@@ -57,8 +57,10 @@ Meus projetos são desenvolvidos com foco em três princípios:
 - Integração entre sistemas e serviços
 - Agendamento de tarefas
 - GitHub Actions
+- cron-job.org
 - Telegram Bot API
 - Execução automatizada em nuvem
+- Persistência de dados e controle de notificações duplicadas
 
 ### 🌐 Redes e Suporte Técnico
 
@@ -79,7 +81,7 @@ Meus projetos são desenvolvidos com foco em três princípios:
 
 ### 🔧 Ferramentas
 
-`Python` · `Git` · `GitHub` · `VS Code` · `GitHub Actions` · `JSON` · `Telegram API` · `Arduino`
+`Python` · `Git` · `GitHub` · `VS Code` · `GitHub Actions` · `cron-job.org` · `JSON` · `APIs REST` · `Telegram Bot API` · `Arduino`
 
 ---
 
@@ -118,6 +120,59 @@ O sistema funciona na nuvem, sem depender de um computador ligado.
 **Status:** 🟢 Em operação desde novembro de 2026.
 
 **Código-fonte:** 🔒 Privado — projeto apresentado para fins de demonstração técnica e portfólio.
+
+---
+
+### 📢 02 — Monitor IFs | Diego Tech
+
+**Sistema automatizado de monitoramento de editais e processos seletivos de Institutos Federais.**
+
+**O problema**
+
+Por diversas vezes, perdi oportunidades de participar de processos seletivos por não acompanhar constantemente as publicações dos Institutos Federais.
+
+Consultar diferentes portais diariamente, verificar novos editais e identificar alterações em seleções já publicadas exige tempo e atenção.
+
+**A solução**
+
+Pensando nisso, desenvolvi uma aplicação em Python capaz de monitorar automaticamente os portais do IFSertãoPE, IFPB e COMPEC, identificando novas publicações e atualizações de editais.
+
+Quando uma novidade é identificada, o sistema envia uma notificação diretamente para o Telegram.
+
+A aplicação funciona na nuvem, realizando verificações a cada 15 minutos, sem depender de um computador ligado.
+
+**Principais funcionalidades**
+
+- Monitoramento automatizado dos portais IFSertãoPE, IFPB e COMPEC.
+- Identificação de novos editais e processos seletivos.
+- Detecção de atualizações em editais já publicados.
+- Verificações automáticas a cada 15 minutos.
+- Notificações automáticas pelo Telegram.
+- Controle de histórico para evitar notificações duplicadas.
+- Persistência dos registros entre execuções.
+- Execução em nuvem utilizando GitHub Actions.
+- Agendamento externo utilizando cron-job.org.
+- Funcionamento independente do computador pessoal.
+
+**Tecnologias utilizadas**
+
+`Python` · `GitHub Actions` · `Git` · `JSON` · `Telegram Bot API` · `cron-job.org`
+
+**Resultado**
+
+O sistema foi desenvolvido para resolver uma necessidade pessoal e passou por testes de funcionamento, identificação de publicações e envio de notificações.
+
+Após ajustes e validações, entrou em operação automática, realizando consultas periódicas aos três portais.
+
+O projeto demonstrou, na prática, a integração entre programação Python, automação em nuvem, gerenciamento de dados e serviços de notificação.
+
+**Status:** 🟢 Finalizado, testado e aprovado — em operação desde novembro de 2026.
+
+**Repositório:** [Monitor IFs Diego Tech](https://github.com/diegoleam/monitor-ifs-diego-tech)
+
+**Código-fonte:** 🔒 Implementação operacional preservada — projeto apresentado para fins de demonstração técnica e portfólio.
+
+**Desenvolvido por Diego Tech.**
 
 ---
 
@@ -163,7 +218,17 @@ Este portfólio acompanha minha evolução profissional na programação.
 
 Cada projeto representa uma oportunidade de estudar novas tecnologias, enfrentar desafios técnicos e aplicar conhecimentos na resolução de problemas reais.
 
-Meu foco não é apenas aprender ferramentas, mas entender como utilizá-las para criar soluções úteis e funcionais.
+Ao desenvolver ferramentas de monitoramento automatizado, pude trabalhar com conceitos importantes, como:
+
+- Integração entre aplicações e serviços externos.
+- Execução automatizada de tarefas na nuvem.
+- Agendamento periódico de processos.
+- Organização e persistência de dados.
+- Controle de notificações duplicadas.
+- Identificação e correção de problemas durante os testes.
+- Validação do funcionamento de aplicações em operação.
+
+Meu foco não é apenas aprender ferramentas, mas entender como utilizá-las para criar soluções úteis, funcionais e que possam ser aprimoradas continuamente.
 
 ---
 
@@ -171,7 +236,7 @@ Meu foco não é apenas aprender ferramentas, mas entender como utilizá-las par
 
 **GitHub:** [github.com/diegoleam](https://github.com/diegoleam)
 
-**LinkedIn:** https://www.linkedin.com/in/diegoleam/
+**LinkedIn:** [linkedin.com/in/diegoleam](https://www.linkedin.com/in/diegoleam/)
 
 ---
 
